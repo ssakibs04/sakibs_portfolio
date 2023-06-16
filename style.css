@@ -157,6 +157,7 @@ hr {
 }
 
 footer {
+    
     background-color: rgba(0, 0, 0, 0.479);
     
 
@@ -177,7 +178,7 @@ footer {
 footer .footer-rights{
     text-align: center;
     padding: 12px 0;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 @media  screen and (max-width: 1600px){
     body{
