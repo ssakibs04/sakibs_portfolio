@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadman Sakib-portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="about.html">
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.986);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .logo {
+            border-radius: 75%;
+            height: 60px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        nav ul li a:hover {
+            color: rgb(110, 110, 214);
+            font-size: 1.04rem;
+        }
+
+        .left {
+            position: relative;
+            left: -210px;
+            font-size: 2.2em;
+        }
+
+        .firstsection {
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 110px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+            margin: 70px 0;
+        }
+        .leftsection .btn{
+            padding: 12px;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            color:aliceblue;
+            background-color: rgb(19, 20, 70);
+        }
+        .leftsection .buttons{
+            padding: 25px;
+        }
+        .rightsection {
+
+            width: 30px;
+        }
+
+        .rightsection img {
+            width: 80%;
+
+        }
+
+        .purple {
+
+            color: blueviolet;
+        }
+
+        #element {
+            color: rgb(235, 126, 24);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 400px;
+        }
+
+        hr {
+            border: 0;
+            background-color: rgb(17, 65, 107);
+            height: 1.2px;
+            margin: 40px -5px;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9em;
+        }
+
+        .secondsection .box {
+            background-color: white;
+            width: 64vw;
+            height: 1px;
+            margin: 35px 193px;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 90px;
+            width: 1px;
+            background-color: rgb(255, 254, 253);
+            margin: 0px 200px;
+        }
+
+        .imagetop {
+            width: 30px;
+            position: relative;
+            top: -29px;
+            left: -14px;
+
+        }
+
+
+
+
+        .vertical-title {
+            color: aquamarine;
+            width: 192px;
+            position: relative;
+            top: 51px;
+            left: -51px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            font-size: 17px;
+            top: 52px;
+            left: -54px;
+            width: 266px;
+        }
+
+        footer {
+            background-color: rgba(128, 128, 128, 0.479);
+            
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-around;
+
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            padding: 12px 0;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="logo.ico" alt="">
+            <div class="left">Sadman Sakib</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="about.html">Services</a></li>
+                <li><a href="about.html">Projects</a></li>
+                <li><a href="about.html">Contact Me</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+
+                Hello,My name is <span class="purple">Sakib</span>
+
+
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn" ><a href="SADMAN SAKIB CV.pdf">Download Resume</a></button>
+                    
+                </div>
+            </div>
+
+            </div>
+            <div class="rightsection">
+                <img src="dev png.png">
+            </div>
+        </section>
+
+        <section class="secondsection">
+            <hr>
+            <h1>Education</h1>
+            <div class="box">
+
+                <!--BSC-->
+                <div class="vertical">
+                    <img class="imagetop" src="education.png" alt="">
+                    <div class="vertical-title">
+                        BSC in Computer Science and Engineering
+                    </div>
+                    <div class="vertical-desc">
+                        American International university-Bangladesh<br>2020-Current
+                    </div>
+                </div>
+                <!--hsc-->
+
+                <div class="vertical">
+                    <img class="imagetop" src="education.png" alt="">
+                    <div class="vertical-title">
+                        Higher Secondary School Certificate
+                    </div>
+                    <div class="vertical-desc">
+                        Dhaka Board<br>Class of 2019
+                    </div>
+                </div>
+
+                <!--ssc-->
+
+                <div class="vertical">
+                    <img class="imagetop" src="education.png" alt="">
+                    <div class="vertical-title">
+                        Secondary School Certificate
+                    </div>
+                    <div class="vertical-desc">
+                        Rajshahi Board<br>Class of 2017
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Sakib's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+
+                <ul>
+                    <li>home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-">
+                <ul>
+                    <li>home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+<div class="footer-rights">
+   Copyright © 2023 www.sakibsportfolio.com | All rights reserved
+</div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Software Engineer', 'Web Developer', 'Software Quality Tester'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
