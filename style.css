@@ -157,7 +157,7 @@ hr {
 }
 
 footer {
-    background-color: rgba(128, 128, 128, 0.479);
+    background-color: rgba(0, 0, 0, 0.479);
     
 
 }
@@ -183,11 +183,14 @@ footer .footer-rights{
     body{
         /* background-color:red; */
     }
-    footer{
-        display: none;
-    }
+  
     .box{
         flex-direction: column;
+    }
+    .footer {
+        display: flex;
+        padding: 24px 4px;
+        justify-content: space-around;
     }
     .firstsection{
         flex-direction: column-reverse;
@@ -195,6 +198,12 @@ footer .footer-rights{
     .secondsection .vertical{
         height: unset;
         margin: 0 0;
+    }
+    .secondsection{
+        height: 728px;
+    }
+    .secondsection .box{
+        margin: 39px 50px;
     }
     .secondsection .vertical-title{
         top: 85px;
@@ -222,9 +231,11 @@ footer .footer-rights{
         text-align: center;
         justify-content: center;
     }
-    nav .ul{
-        left: -9px;
-    position: relative;
+    nav ul{
+        left: 47px;
+        position: relative;
+        align-items: center;
+        display: flex;
 
     }
     .leftsection{
@@ -246,6 +257,9 @@ footer .footer-rights{
         display: flex;
         position: relative;
         left: 24px;
+    }
+    body{
+        max-width: fit-content;
     }
 }
 
