@@ -1,0 +1,181 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.986);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    border-radius: 75%;
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav ul li a:hover {
+    color: rgb(110, 110, 214);
+    font-size: 1.04rem;
+}
+
+.left {
+    position: relative;
+    left: -210px;
+    font-size: 2.2em;
+}
+
+.firstsection {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 110px 0;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 3rem;
+    margin: 70px 0;
+}
+.leftsection .btn{
+    padding: 12px;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    color:aliceblue;
+    background-color: rgb(19, 20, 70);
+}
+.leftsection .buttons{
+    padding: 25px;
+}
+.rightsection {
+
+    width: 30px;
+}
+
+.rightsection img {
+    width: 80%;
+
+}
+
+.purple {
+
+    color: blueviolet;
+}
+
+#element {
+    color: rgb(235, 126, 24);
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 400px;
+}
+
+hr {
+    border: 0;
+    background-color: rgb(17, 65, 107);
+    height: 1.2px;
+    margin: 40px -5px;
+}
+
+.secondsection h1 {
+    font-size: 1.9em;
+}
+
+.secondsection .box {
+    background-color: white;
+    width: 64vw;
+    height: 1px;
+    margin: 35px 193px;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 90px;
+    width: 1px;
+    background-color: rgb(255, 254, 253);
+    margin: 0px 200px;
+}
+
+.imagetop {
+    width: 30px;
+    position: relative;
+    top: -29px;
+    left: -14px;
+
+}
+
+
+
+
+.vertical-title {
+    color: aquamarine;
+    width: 192px;
+    position: relative;
+    top: 51px;
+    left: -51px;
+
+}
+
+.vertical-desc {
+    position: relative;
+    font-size: 17px;
+    top: 52px;
+    left: -54px;
+    width: 266px;
+}
+
+footer {
+    background-color: rgba(128, 128, 128, 0.479);
+    
+
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-around;
+
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 223px;
+}
+footer .footer-rights{
+    text-align: center;
+    padding: 12px 0;
+    color: black;
+}
